@@ -1,0 +1,17 @@
+{
+   "manifest_version": 3,
+   "name": "VGAC extension",
+   "description": "Make key user fields selectable for easy copying",
+   "version": "1.0",
+   "permissions": [
+   ],
+   "content_scripts": [
+      {
+        "js": ["script/content.js"],
+        "css": ["css/style.css"],
+        "matches": [
+          "https://volvogroup.sharepoint.com/sites/app-vgac/*"
+        ]
+      }
+   ]
+ }
