@@ -7,7 +7,6 @@
    ],
    "content_scripts": [
       {
-        "js": ["script/content.js"],
         "css": ["css/style.css"],
         "matches": [
           "https://volvogroup.sharepoint.com/sites/app-vgac/*"
